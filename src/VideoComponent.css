@@ -1,0 +1,37 @@
+html,
+body {
+  margin: 0px;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.draggable {
+  padding-top: 200px;
+}
+
+#name {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.div1 {
+  background-color: bisque;
+}
+
+.div2 {
+  background-color: cadetblue;
+}
+
+.div3 {
+  background-color: cyan;
+}
+
+.div4 {
+  background-color: darkkhaki;
+}
